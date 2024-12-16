@@ -39,6 +39,6 @@ GO
 --INSERTS DATOS DE PRUEBA
 INSERT INTO reservations (room_number, customer_name, start_date, end_date, status)
 VALUES 
-(101, 'Juan Pérez', '2024-12-20', '2024-12-25', 'Activa'),
-(102, 'Ana Gómez', '2024-12-22', '2024-12-27', 'Cancelada');
+(3, 'Juan Pérez', '2024-12-20', '2024-12-25', 'Activa'),
+(2, 'Ana Gómez', '2024-12-22', '2024-12-27', 'Cancelada');
 GO
