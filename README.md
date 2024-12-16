@@ -1,5 +1,6 @@
 # Proyecto IS_P2_EXA: Sistema de Gestión de Reservas Hotelera
 ### Creado por: Cristopher Chicaiza
+### Video: https://youtu.be/QRqnzYuGoJA
 Este repositorio contiene la implementación de un sistema integrado de reservas hoteleras que incluye:
 
 1. Servicio Web SOAP: Consulta de disponibilidad de habitaciones.
@@ -71,12 +72,12 @@ REST API: Realiza solicitudes HTTP a los endpoints especificados y usando los pu
 (Revisar el documento PDF)
 
 #### Tecnologías Utilizadas
--Node.js
--Express
--SOAP
--SQL Server
--Axios
--Dotenv
+- Node.js
+- Express
+- SOAP
+- SQL Server
+- Axios
+- Dotenv
 
 #### Autor
 
