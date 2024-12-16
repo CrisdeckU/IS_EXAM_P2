@@ -15,51 +15,72 @@ Este repositorio contiene la implementación de un sistema integrado de reservas
 # Configuración General
 1. Clona el repositorio
 2. Instala las dependencias en cada carpeta de servicio:
+
   cd SoapServiceBE
+  
   npm install
+  
   cd ../RestApiBackend
+  
   npm install
+  
   cd ../InventoryMSBackend
+  
   npm install
-3. Configura las bases de datos usando los archivos SQL ubicados en MsSQLQuerys (Correr los Scripts en MsSQL Server)
-4. Modifica el archivo .env en cada servicio usando el formato, y coloca tus propias credenciales
-5. Inicia cada uno de los servicios BackEnd
+  
+4. Configura las bases de datos usando los archivos SQL ubicados en MsSQLQuerys (Correr los Scripts en MsSQL Server)
+5. Modifica el archivo .env en cada servicio usando el formato, y coloca tus propias credenciales
+6. Inicia cada uno de los servicios BackEnd
 
 ## Ejecución Individual
 
 ### Servicio SOAP: Consulta de Disponibilidad
+
 cd SoapServiceBE
+
 npm start
 
 ### API REST: Gestión de Reservas
+
 cd RestApiBackend
+
 npm start
 
 ### Microservicio: Gestión del Inventario
+
 cd InventoryMSBackend
+
 npm start
 
 ## Ejecución Completa
+
 cd SoapServiceBE && npm start
+
 cd RestApiBackend && npm start
+
 cd InventoryMSBackend && npm start
 
 
 ## Pruebas Documentadas
 Para realizar pruebas de los servicios, se recomienda usar Postman o cualquier cliente similar.
+
 SOAP: Envía la solicitud XML al endpoint http://localhost:3000/soap.
+
 REST API: Realiza solicitudes HTTP a los endpoints especificados y usando los puertos elegidos.
+
 (Revisar el documento PDF)
 
 #### Tecnologías Utilizadas
-Node.js
-Express
-SOAP
-SQL Server
-Axios
-Dotenv
+-Node.js
+-Express
+-SOAP
+-SQL Server
+-Axios
+-Dotenv
 
 #### Autor
+
 Cristopher Chicaza
+
 2024
 
